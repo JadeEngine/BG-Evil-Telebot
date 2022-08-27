@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 import random
-bot = telebot.TeleBot('5785353971:AAGh2PLs1ANxR8Qgt-fYbTIyiX-3-wXVVOM')
+bot = telebot.TeleBot('Insert your token))')
 
 @bot.message_handler(commands = ['start'])
 def start(message):
